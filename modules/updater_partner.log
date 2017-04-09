@@ -1,0 +1,696 @@
+2017-04-03 10:03:41 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-03 10:03:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:42 -  - TIME GetUpdatesList(request) 0.832 sec
+2017-04-03 10:03:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:49 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:49 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:49 -  - TIME LoadModulesUpdates(request) 0.6 sec
+2017-04-03 10:03:49 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:49 - S - STEP
+2017-04-03 10:03:49 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:50 -  - loadFile
+2017-04-03 10:03:50 - U - RETURN
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:50 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:50 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:03:50 - UPD_SUCCESS - Updated: asd.iblock
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C1.3.1%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:50 -  - TIME LoadModulesUpdates(request) 0.453 sec
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:50 - S - STEP
+2017-04-03 10:03:50 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:50 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:50 -  - loadFile
+2017-04-03 10:03:51 - U - RETURN
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:51 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:51 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:03:51 - UPD_SUCCESS - Updated: asd.iblock (1.3.2)<br>- Корректировка для обновления 11.0.5 главного модуля.
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C1.3.2%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:51 -  - TIME LoadModulesUpdates(request) 0.566 sec
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:51 - S - STEP
+2017-04-03 10:03:51 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:51 -  - loadFile
+2017-04-03 10:03:51 - U - RETURN
+2017-04-03 10:03:51 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:51 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:51 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:03:51 - UPD_SUCCESS - Updated: asd.iblock (1.3.3)<br>- Исправлено копирование свойства типа HTML.
+2017-04-03 10:03:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C1.3.3%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:52 -  - TIME LoadModulesUpdates(request) 0.754 sec
+2017-04-03 10:03:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:52 - S - STEP
+2017-04-03 10:03:52 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:52 -  - loadFile
+2017-04-03 10:03:53 - U - RETURN
+2017-04-03 10:03:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:53 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:53 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213833/asd.iblock/updater1.3.5.php'
+2017-04-03 10:03:53 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:03:53 - UPD_SUCCESS - Updated: asd.iblock (1.3.5)<br>- Добавлен вывод ошибок при копировании/перемещении.
+2017-04-03 10:03:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C1.3.5%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:53 -  - TIME LoadModulesUpdates(request) 0.655 sec
+2017-04-03 10:03:53 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:53 - S - STEP
+2017-04-03 10:03:53 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:53 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:53 -  - loadFile
+2017-04-03 10:03:54 - U - RETURN
+2017-04-03 10:03:54 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:54 -  - TIME UnGzipArchive 0.002 sec
+2017-04-03 10:03:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213834/asd.iblock/updater2.0.0.php'
+2017-04-03 10:03:54 -  - TIME UpdateStepModules 0.003 sec
+2017-04-03 10:03:54 - UPD_SUCCESS - Updated: asd.iblock (2.0.0)<br>- Добавлена возможность импорта/экспорта свойств инфоблока (кнопка находится на панели инструментов на странице редактирования инфоблока). - Изменена структура классов модуля.
+2017-04-03 10:03:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C2.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:55 -  - TIME LoadModulesUpdates(request) 0.878 sec
+2017-04-03 10:03:55 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:55 - S - STEP
+2017-04-03 10:03:55 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:55 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:55 -  - loadFile
+2017-04-03 10:03:55 - U - RETURN
+2017-04-03 10:03:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:55 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:55 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:03:55 - UPD_SUCCESS - Updated: asd.iblock (2.0.1)<br>- Обратная интерфейсная совместимость.
+2017-04-03 10:03:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C2.0.1%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:56 -  - TIME LoadModulesUpdates(request) 0.659 sec
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:56 - S - STEP
+2017-04-03 10:03:56 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:56 -  - loadFile
+2017-04-03 10:03:56 - U - RETURN
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:56 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:56 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:03:56 - UPD_SUCCESS - Updated: asd.iblock (2.0.2)<br>- Исправления для импорта в инфоблок без свойств.
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C2.0.2%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:56 -  - TIME LoadModulesUpdates(request) 0.53 sec
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:56 - S - STEP
+2017-04-03 10:03:56 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:56 -  - loadFile
+2017-04-03 10:03:57 - U - RETURN
+2017-04-03 10:03:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:57 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:57 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:03:57 - UPD_SUCCESS - Updated: asd.iblock (2.0.4)<br>- Незначительные изменения.
+2017-04-03 10:03:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C2.0.4%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:03:58 -  - TIME LoadModulesUpdates(request) 0.857 sec
+2017-04-03 10:03:58 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:58 - S - STEP
+2017-04-03 10:03:58 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:03:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:58 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:03:58 -  - loadFile
+2017-04-03 10:03:58 - U - RETURN
+2017-04-03 10:03:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:03:58 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:03:58 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:03:58 - UPD_SUCCESS - Updated: asd.iblock (2.0.5)<br>- Исправление для неуникальных кодов вариантов списка в пределах одного инфоблока.
+2017-04-03 10:03:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:03:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:03:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C2.0.5%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:03:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:00 -  - TIME LoadModulesUpdates(request) 1.563 sec
+2017-04-03 10:04:00 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:00 - S - STEP
+2017-04-03 10:04:00 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:00 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:00 -  - loadFile
+2017-04-03 10:04:00 - U - RETURN
+2017-04-03 10:04:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:00 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213840/asd.iblock/updater2.0.7.php'
+2017-04-03 10:04:00 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:00 - UPD_SUCCESS - Updated: asd.iblock (2.0.7)<br>- Jquery теперь подключается системно. 
+2017-04-03 10:04:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C2.0.7%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:01 -  - TIME LoadModulesUpdates(request) 0.833 sec
+2017-04-03 10:04:01 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:01 - S - STEP
+2017-04-03 10:04:01 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:01 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:01 -  - loadFile
+2017-04-03 10:04:01 - U - RETURN
+2017-04-03 10:04:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:01 -  - TIME UnGzipArchive 0.003 sec
+2017-04-03 10:04:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213841/asd.iblock/updater3.0.0.php'
+2017-04-03 10:04:01 -  - TIME UpdateStepModules 0.012 sec
+2017-04-03 10:04:01 - UPD_SUCCESS - Updated: asd.iblock (3.0.0)<br><ul> <li>Реализована полная поддержка каталога (цены, остатки). За посильную помощь спасибо Василию Бернгардту. </li> <li>Добавлена опция \"Отвязать от текущего раздела\". </li> <li>Добавлена возможность копировать/перемещать в конкретный раздел инфоблока.</li> <li>Добавлен новый тип свойств \"Простой чекбокс\".</li> <li>В карточке товара добавлена кнопка \"посмотреть в публичной части\".</li> <li>Реализован выбор свойств для экспорта, прибран формат XML, файл экспорта теперь сохраняется на диске, перед отдачей.</li> <li>Теперь символьный код проверяется на уникальность, и если таковой нет, создает ее, дополняя случайными числами. Необходимо для инфоблоков, где символьный код является частью URL. </li> <li>Более корректное подключение скриптов и библиотек.</li> <li>Исправлена ошибка с копированием/перемещением элементов (не копировалось свойство типа \"список\").</li> <li>Косметические изменения в коде инсталятора.</li> <li>Подробнее: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7272/</li> </ul>
+2017-04-03 10:04:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C3.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:02 -  - TIME LoadModulesUpdates(request) 1.113 sec
+2017-04-03 10:04:02 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:02 - S - STEP
+2017-04-03 10:04:02 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:02 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:02 -  - loadFile
+2017-04-03 10:04:02 - U - RETURN
+2017-04-03 10:04:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:02 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213842/asd.iblock/updater3.0.1.php'
+2017-04-03 10:04:02 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:02 - UPD_SUCCESS - Updated: asd.iblock (3.0.1)<br>- Незначительные исправления.
+2017-04-03 10:04:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C3.0.1%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:04 -  - TIME LoadModulesUpdates(request) 1.087 sec
+2017-04-03 10:04:04 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:04 - S - STEP
+2017-04-03 10:04:04 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:04 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:04 -  - loadFile
+2017-04-03 10:04:04 - U - RETURN
+2017-04-03 10:04:04 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:04 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213844/asd.iblock/updater3.0.2.php'
+2017-04-03 10:04:04 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:04 - UPD_SUCCESS - Updated: asd.iblock (3.0.2)<br>- Автоматическое создание обработчика типа свойства при установленном модуле.
+2017-04-03 10:04:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C3.0.2%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:05 -  - TIME LoadModulesUpdates(request) 0.989 sec
+2017-04-03 10:04:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:05 - S - STEP
+2017-04-03 10:04:05 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:05 -  - loadFile
+2017-04-03 10:04:05 - U - RETURN
+2017-04-03 10:04:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:05 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213845/asd.iblock/updater3.1.0.php'
+2017-04-03 10:04:05 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:05 - UPD_SUCCESS - Updated: asd.iblock (3.1.0)<br>- Тип свойства \"Простой чекбокс\" разделен на числовой и строковый типы. - Добавлена возможность настройки принимаемых значений простого чекбокса.
+2017-04-03 10:04:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C3.1.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:07 -  - TIME LoadModulesUpdates(request) 1.808 sec
+2017-04-03 10:04:07 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:07 - S - STEP
+2017-04-03 10:04:07 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:07 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:07 -  - loadFile
+2017-04-03 10:04:07 - U - RETURN
+2017-04-03 10:04:07 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:07 -  - TIME UnGzipArchive 0.002 sec
+2017-04-03 10:04:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213847/asd.iblock/updater3.5.0.php'
+2017-04-03 10:04:07 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:07 - UPD_SUCCESS - Updated: asd.iblock (3.5.0)<br>- Добавлены пользовательские свойства инфоблоков: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7307/
+2017-04-03 10:04:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C3.5.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:09 -  - TIME LoadModulesUpdates(request) 1.474 sec
+2017-04-03 10:04:09 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:09 - S - STEP
+2017-04-03 10:04:09 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:09 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:09 -  - loadFile
+2017-04-03 10:04:09 - U - RETURN
+2017-04-03 10:04:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:09 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213849/asd.iblock/updater3.5.1.php'
+2017-04-03 10:04:09 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:09 - UPD_SUCCESS - Updated: asd.iblock (3.5.1)<br>- Мелкие изменения.
+2017-04-03 10:04:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C3.5.1%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:10 -  - TIME LoadModulesUpdates(request) 0.946 sec
+2017-04-03 10:04:10 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:10 - S - STEP
+2017-04-03 10:04:10 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:10 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:10 -  - loadFile
+2017-04-03 10:04:10 - U - RETURN
+2017-04-03 10:04:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:10 -  - TIME UnGzipArchive 0.002 sec
+2017-04-03 10:04:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213850/asd.iblock/updater3.5.2.php'
+2017-04-03 10:04:10 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:10 - UPD_SUCCESS - Updated: asd.iblock (3.5.2)<br>- Исправление ошибки копирования в списке при уникальности символьного кода. 
+2017-04-03 10:04:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C3.5.2%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:11 -  - TIME LoadModulesUpdates(request) 0.597 sec
+2017-04-03 10:04:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:11 - S - STEP
+2017-04-03 10:04:11 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:11 -  - loadFile
+2017-04-03 10:04:12 - U - RETURN
+2017-04-03 10:04:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:12 -  - TIME UnGzipArchive 0.007 sec
+2017-04-03 10:04:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213852/asd.iblock/updater4.0.0.php'
+2017-04-03 10:04:12 -  - TIME UpdateStepModules 0.011 sec
+2017-04-03 10:04:12 - UPD_SUCCESS - Updated: asd.iblock (4.0.0)<br><li> Удобное редактирование с перескакиванием по ячейкам! <li> Добавлен тип свойства \"Палитра\". <li> Реализовано копирование секций (без подсекций и элементов). <li> Свойство \"простой чекбокс\" поддерживает вывод в публичной части. <li> Переработана система прав под новые версии. <li> Разработчикам: добавлен метод CASDiblockTools::SetIBUF($IBLOCK_ID, $arFields) для сохранения пользовательских свойств инфоблока. <li> При переносе/копировании элементов в другой инфоблок списки теперь сохраняются даже при различных XML_ID вариантов, в случае их разности за сравнение берется название вариантов. <li> Исправлена ошибка сохранения пользовательского свойства инфоблока списочного типа. <li> Прочие незначительные улучшения и изменения. <li> Поиск и исправления notice PHP. 
+2017-04-03 10:04:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:13 -  - TIME LoadModulesUpdates(request) 0.703 sec
+2017-04-03 10:04:13 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:13 - S - STEP
+2017-04-03 10:04:13 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:13 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:13 -  - loadFile
+2017-04-03 10:04:13 - U - RETURN
+2017-04-03 10:04:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:13 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213853/asd.iblock/updater4.0.1.php'
+2017-04-03 10:04:13 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:13 - UPD_SUCCESS - Updated: asd.iblock (4.0.1)<br>- Мелкие исправления js-скрипта.
+2017-04-03 10:04:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.0.1%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:14 -  - TIME LoadModulesUpdates(request) 0.773 sec
+2017-04-03 10:04:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:14 - S - STEP
+2017-04-03 10:04:14 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:14 -  - loadFile
+2017-04-03 10:04:14 - U - RETURN
+2017-04-03 10:04:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:14 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213854/asd.iblock/updater4.0.2.php'
+2017-04-03 10:04:14 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:14 - UPD_SUCCESS - Updated: asd.iblock (4.0.2)<br>- Регистрация обработчика Палитры.
+2017-04-03 10:04:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.0.2%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:15 -  - TIME LoadModulesUpdates(request) 1.092 sec
+2017-04-03 10:04:15 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:15 - S - STEP
+2017-04-03 10:04:15 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:15 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:15 -  - loadFile
+2017-04-03 10:04:15 - U - RETURN
+2017-04-03 10:04:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:15 -  - TIME UnGzipArchive 0.002 sec
+2017-04-03 10:04:15 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213855/asd.iblock/updater4.5.0.php'
+2017-04-03 10:04:15 -  - TIME UpdateStepModules 0.003 sec
+2017-04-03 10:04:15 - UPD_SUCCESS - Updated: asd.iblock (4.5.0)<br><li> Добавлен экспорт/импорт форм представления форм секций и элементов. <li> В интерфейсе Эрмитажа добавлена ссылка на элемент в админ.части. <li> В блоке настроек в списке элементов добавлена опция переключения режима представления элементов и секций: совместный/раздельный. <li> Улучшен тип свойства \"Простой чекбокс\", теперь для не установленных галочек стоит пусто. 
+2017-04-03 10:04:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:16 -  - TIME LoadModulesUpdates(request) 0.884 sec
+2017-04-03 10:04:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:16 - S - STEP
+2017-04-03 10:04:16 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:16 -  - loadFile
+2017-04-03 10:04:17 - U - RETURN
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:17 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213857/asd.iblock/updater4.5.1.php'
+2017-04-03 10:04:17 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:17 - UPD_SUCCESS - Updated: asd.iblock (4.5.1)<br>- Фикс обновления 4.5.1 под старшие версии PHP.
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.1%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:17 -  - TIME LoadModulesUpdates(request) 0.53 sec
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:17 - S - STEP
+2017-04-03 10:04:17 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:17 -  - loadFile
+2017-04-03 10:04:17 - U - RETURN
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:17 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213857/asd.iblock/updater4.5.2.php'
+2017-04-03 10:04:17 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:17 - UPD_SUCCESS - Updated: asd.iblock (4.5.2)<br>- System update.
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.2%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:18 -  - TIME LoadModulesUpdates(request) 0.698 sec
+2017-04-03 10:04:18 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:18 - S - STEP
+2017-04-03 10:04:18 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:18 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:18 -  - loadFile
+2017-04-03 10:04:19 - U - RETURN
+2017-04-03 10:04:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:19 -  - TIME UnGzipArchive 0.005 sec
+2017-04-03 10:04:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213859/asd.iblock/updater4.5.3.php'
+2017-04-03 10:04:19 -  - TIME UpdateStepModules 0.006 sec
+2017-04-03 10:04:19 - UPD_SUCCESS - Updated: asd.iblock (4.5.3)<br>- Совместимость с версией 14.5 Битрикс.
+2017-04-03 10:04:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.3%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:20 -  - TIME LoadModulesUpdates(request) 0.961 sec
+2017-04-03 10:04:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:20 - S - STEP
+2017-04-03 10:04:20 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:20 -  - loadFile
+2017-04-03 10:04:20 - U - RETURN
+2017-04-03 10:04:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:20 -  - TIME UnGzipArchive 0.003 sec
+2017-04-03 10:04:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213860/asd.iblock/updater4.5.5.php'
+2017-04-03 10:04:20 -  - TIME UpdateStepModules 0.003 sec
+2017-04-03 10:04:20 - UPD_SUCCESS - Updated: asd.iblock (4.5.5)<br>- Окно палитры теперь центрируется по центру экрана.
+2017-04-03 10:04:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.5%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:21 -  - TIME LoadModulesUpdates(request) 1.114 sec
+2017-04-03 10:04:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:21 - S - STEP
+2017-04-03 10:04:21 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:21 -  - loadFile
+2017-04-03 10:04:21 - U - RETURN
+2017-04-03 10:04:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:21 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213861/asd.iblock/updater4.5.6.php'
+2017-04-03 10:04:21 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:21 - UPD_SUCCESS - Updated: asd.iblock (4.5.6)<br>- Исправлена ошибка для типа свойств \"Простой чекбокс\" для режима \"включен по умолчанию\".
+2017-04-03 10:04:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.6%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:22 -  - TIME LoadModulesUpdates(request) 0.822 sec
+2017-04-03 10:04:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:22 - S - STEP
+2017-04-03 10:04:22 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:22 -  - loadFile
+2017-04-03 10:04:22 - U - RETURN
+2017-04-03 10:04:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:22 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213862/asd.iblock/updater4.5.7.php'
+2017-04-03 10:04:22 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:22 - UPD_SUCCESS - Updated: asd.iblock (4.5.7)<br><ul> <li>Поправлена ошибка с правами доступа. <li>Поправлена ошибка, при которой слетали описания свойств при копировании и переносе. </ul>
+2017-04-03 10:04:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.7%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:23 -  - TIME LoadModulesUpdates(request) 0.821 sec
+2017-04-03 10:04:23 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:23 - S - STEP
+2017-04-03 10:04:23 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:23 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:23 -  - loadFile
+2017-04-03 10:04:24 - U - RETURN
+2017-04-03 10:04:24 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:24 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:24 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213864/asd.iblock/updater4.5.8.php'
+2017-04-03 10:04:24 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:24 - UPD_SUCCESS - Updated: asd.iblock (4.5.8)<br>Незначительные улучшения.
+2017-04-03 10:04:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.8%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:25 -  - TIME LoadModulesUpdates(request) 1.065 sec
+2017-04-03 10:04:25 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:25 - S - STEP
+2017-04-03 10:04:25 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:25 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:25 -  - loadFile
+2017-04-03 10:04:25 - U - RETURN
+2017-04-03 10:04:25 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:25 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213865/asd.iblock/updater4.5.9.php'
+2017-04-03 10:04:25 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:25 - UPD_SUCCESS - Updated: asd.iblock (4.5.9)<br>Исправление типов \"простые чекбоксы\" для показа в универсальных списках.
+2017-04-03 10:04:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.9%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:26 -  - TIME LoadModulesUpdates(request) 0.55 sec
+2017-04-03 10:04:26 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:26 - S - STEP
+2017-04-03 10:04:26 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:26 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:26 -  - loadFile
+2017-04-03 10:04:26 - U - RETURN
+2017-04-03 10:04:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:26 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:26 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213866/asd.iblock/updater4.5.10.php'
+2017-04-03 10:04:26 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:26 - UPD_SUCCESS - Updated: asd.iblock (4.5.10)<br>Исправлено копирование описаний свойств.
+2017-04-03 10:04:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:26 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:26 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.10%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:26 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:27 -  - TIME LoadModulesUpdates(request) 1.348 sec
+2017-04-03 10:04:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:27 - S - STEP
+2017-04-03 10:04:27 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:27 -  - loadFile
+2017-04-03 10:04:28 - U - RETURN
+2017-04-03 10:04:28 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:28 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:28 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213868/asd.iblock/updater4.5.11.php'
+2017-04-03 10:04:28 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:28 - UPD_SUCCESS - Updated: asd.iblock (4.5.11)<br>Исправлено поведение свойства типа \"Привязка к собственной секции\" при виде \"Список\". Также свойство добавлено в установку в обновлении.
+2017-04-03 10:04:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.11%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:29 -  - TIME LoadModulesUpdates(request) 0.956 sec
+2017-04-03 10:04:29 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:29 - S - STEP
+2017-04-03 10:04:29 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:29 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:29 -  - loadFile
+2017-04-03 10:04:29 - U - RETURN
+2017-04-03 10:04:29 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:29 -  - TIME UnGzipArchive 0.002 sec
+2017-04-03 10:04:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213869/asd.iblock/updater4.5.12.php'
+2017-04-03 10:04:29 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:29 - UPD_SUCCESS - Updated: asd.iblock (4.5.12)<br>Поправлена ошибка копирования цен и параметров продукта.
+2017-04-03 10:04:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.5.12%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:30 -  - TIME LoadModulesUpdates(request) 0.884 sec
+2017-04-03 10:04:30 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:30 - S - STEP
+2017-04-03 10:04:30 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:30 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:30 -  - loadFile
+2017-04-03 10:04:30 - U - RETURN
+2017-04-03 10:04:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:30 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:30 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213870/asd.iblock/updater4.6.0.php'
+2017-04-03 10:04:30 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:30 - UPD_SUCCESS - Updated: asd.iblock (4.6.0)<br>- Незначительные изменения.
+2017-04-03 10:04:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:31 -  - TIME LoadModulesUpdates(request) 0.875 sec
+2017-04-03 10:04:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:31 - S - STEP
+2017-04-03 10:04:31 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:31 -  - loadFile
+2017-04-03 10:04:31 - U - RETURN
+2017-04-03 10:04:31 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:31 -  - TIME UnGzipArchive 0.003 sec
+2017-04-03 10:04:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213871/asd.iblock/updater4.6.3.php'
+2017-04-03 10:04:31 -  - TIME UpdateStepModules 0.004 sec
+2017-04-03 10:04:31 - UPD_SUCCESS - Updated: asd.iblock (4.6.3)<br><ul> <li>Незначительные интерфейсные улучшения. <li>Исправление незначительных ошибок. </ul>
+2017-04-03 10:04:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.3%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:33 -  - TIME LoadModulesUpdates(request) 1.221 sec
+2017-04-03 10:04:33 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:33 - S - STEP
+2017-04-03 10:04:33 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:33 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:33 -  - loadFile
+2017-04-03 10:04:33 - U - RETURN
+2017-04-03 10:04:33 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:33 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:33 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213873/asd.iblock/updater4.6.4.php'
+2017-04-03 10:04:33 -  - TIME UpdateStepModules 0.002 sec
+2017-04-03 10:04:33 - UPD_SUCCESS - Updated: asd.iblock (4.6.4)<br>Мелкие изменения. 
+2017-04-03 10:04:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.4%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:34 -  - TIME LoadModulesUpdates(request) 0.971 sec
+2017-04-03 10:04:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:34 - S - STEP
+2017-04-03 10:04:34 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:34 -  - loadFile
+2017-04-03 10:04:34 - U - RETURN
+2017-04-03 10:04:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:34 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213874/asd.iblock/updater4.6.5.php'
+2017-04-03 10:04:34 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:34 - UPD_SUCCESS - Updated: asd.iblock (4.6.5)<br>- Изменение в групповых действиях для фасетного индекса.
+2017-04-03 10:04:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.5%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:35 -  - TIME LoadModulesUpdates(request) 0.783 sec
+2017-04-03 10:04:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:35 - S - STEP
+2017-04-03 10:04:35 - LMU01 - LoadModulesUpdates-Step
+2017-04-03 10:04:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:35 -  - loadFile
+2017-04-03 10:04:35 - U - RETURN
+2017-04-03 10:04:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-04-03 10:04:35 -  - TIME UnGzipArchive 0.001 sec
+2017-04-03 10:04:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1491213875/asd.iblock/updater4.6.6.php'
+2017-04-03 10:04:35 -  - TIME UpdateStepModules 0.001 sec
+2017-04-03 10:04:35 - UPD_SUCCESS - Updated: asd.iblock (4.6.6)<br>Исправление ошибки, иногда возникающей при отвязке элементов от раздела.
+2017-04-03 10:04:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-04-03 10:04:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:04:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:04:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:04:36 -  - TIME LoadModulesUpdates(request) 0.759 sec
+2017-04-03 10:04:36 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:04:36 - STEP - Finish - NOUPDATES
+2017-04-03 10:04:36 - STEP - Finish - NOUPDATES
+2017-04-03 10:08:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-03 10:08:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:08:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:08:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:08:42 -  - TIME GetUpdatesList(request) 0.372 sec
+2017-04-03 10:08:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:08:49 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-03 10:08:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:08:49 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock%2Casd.iblock&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:08:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:08:49 -  - TIME GetUpdatesList(request) 0.445 sec
+2017-04-03 10:08:49 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-03 10:13:54 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-03 10:13:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-03 10:13:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock%2Casd.iblock&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-03 10:13:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-03 10:13:55 -  - TIME GetUpdatesList(request) 0.451 sec
+2017-04-03 10:13:55 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 11:56:18 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 11:56:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 11:56:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 11:56:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 11:56:18 -  - TIME GetUpdatesList(request) 0.613 sec
+2017-04-05 11:56:18 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 12:42:25 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 12:42:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 12:42:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 12:42:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 12:42:26 -  - TIME GetUpdatesList(request) 0.586 sec
+2017-04-05 12:42:26 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 12:42:28 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 12:42:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 12:42:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 12:42:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 12:42:28 -  - TIME GetUpdatesList(request) 0.464 sec
+2017-04-05 12:42:28 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 12:42:35 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 12:42:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 12:42:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 12:42:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 12:42:36 -  - TIME GetUpdatesList(request) 0.602 sec
+2017-04-05 12:42:36 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 12:42:36 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 12:42:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 12:42:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 12:42:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 12:42:36 -  - TIME GetUpdatesList(request) 0.384 sec
+2017-04-05 12:42:36 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 12:42:46 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 12:42:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 12:42:46 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 12:42:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 12:42:46 -  - TIME GetUpdatesList(request) 0.542 sec
+2017-04-05 12:42:46 -  - exec CUpdateClientPartner::ParseServerData
+2017-04-05 12:42:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-04-05 12:42:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-04-05 12:42:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=diamond.abraxabra.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.0.17&NGINX=Y&dbv=5.5.54&instm=main%2C16.5.16%2CY%3Bform%2C15.0.2%2CN%3Btranslate%2C15.0.0%2CN%3Babtest%2C17.0.0%2CN%3Bblog%2C16.6.0%2CN%3Bpull%2C17.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bclouds%2C16.5.3%2CN%3Bsender%2C17.0.0%2CN%3Bhighloadblock%2C17.0.0%2CN%3Bsubscribe%2C16.5.0%2CN%3Bvote%2C17.0.0%2CN%3Bforum%2C17.0.0%2CN%3Biblock%2C17.0.3%2CN%3Bb24connector%2C17.0.0%2CN%3Bsecurity%2C17.0.0%2CN%3Bcurrency%2C17.0.1%2CN%3Breport%2C16.5.1%2CN%3Bseo%2C17.0.3%2CN%3Bsearch%2C17.0.1%2CN%3Bmobileapp%2C17.0.0%2CN%3Bcatalog%2C17.0.3%2CN%3Bcompression%2C16.0.0%2CN%3Bconversion%2C17.0.2%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bsocialservices%2C17.1.1%2CN%3Bphotogallery%2C16.0.1%2CN%3Bfileman%2C17.0.4%2CN%3Bsale%2C17.0.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Beshopapp%2C16.5.0%2CN%3Bstoreassist%2C16.0.1%2CN%3Basd.iblock%2C4.6.6%2CN&reqm=bitrix.sitecorporate%2Cbitrix.eshop%2Casd.iblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-04-05 12:42:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-04-05 12:42:50 -  - TIME GetUpdatesList(request) 0.536 sec
+2017-04-05 12:42:50 -  - exec CUpdateClientPartner::ParseServerData
